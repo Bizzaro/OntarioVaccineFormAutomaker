@@ -22,5 +22,9 @@
 # Optional
 - Add one .csv file per person with their info in them.
 - Run multiple windows with one command 
-	- This joins the provincial booking site queue with 3 seperate windows for 3 individuals, waits until it's your turn, autofills health card info and logs in.
+	- This joins the provincial booking site queue (if there is one) with 3 seperate windows for 3 individuals, waits until it's your turn, autofills health card info and logs in.
 	- Example - ```python script.py me.csv & python script.py gf.csv & python script.py dad.csv &```
+
+
+# Other tips
+- They say booking opens at 8AM, but the queue is usually open at 730/740AM.

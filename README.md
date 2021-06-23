@@ -1,6 +1,7 @@
 # OntarioVaccineFormAutomaker
 
-A repo to automate the booking process for vaccinations
+- Spins up browser windows for X people, autofills health card fields.
+- Useful if you're booking for more than one person.
 
 # Requirements
 
@@ -17,3 +18,7 @@ A repo to automate the booking process for vaccinations
 - Copy the path of the chrome driver and paste it into the last column in the CSV
 - Enter your information for each corresponding column in the single row below
 - Run script by executing ```python script.py sample.csv```
+- Add one .csv file per person with their indo in them.
+- Run multiple runs with one command 
+	- This joins the queue with 3 seperate windows for 3 individuals, waits until it's your turn, autofills health card info and logs in.
+	- Example - ```python script.py me.csv & python script.py gf.csv & python script.py dad.csv &```

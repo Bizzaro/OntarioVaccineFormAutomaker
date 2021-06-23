@@ -7,7 +7,7 @@
 
 - Installation:
     - Get the chrome driver that is the same as your chrome version: https://chromedriver.chromium.org/downloads
-    - To know your chrome verison go to: https://www.google.com/chrome/update/
+    - To know your chrome verison go to: chrome://version
     - Unzip the chrome driver file
 - Must have python3 installed in the system
 - Install pip
